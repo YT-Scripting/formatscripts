@@ -12,7 +12,7 @@ if not os.path.exists("downloads"):
     os.makedirs("downloads")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text("Send a .txt/ or .docx file, and I'll respond!")
+    await update.message.reply_text("Send a .txt/ or .docx file, and I'll respond! , ah and Hello World !")
 
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
