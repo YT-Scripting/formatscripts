@@ -73,7 +73,7 @@ async def handle_document(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
             os.remove(file_path)
 
 async def main() -> None:
-    application = Application.builder().token("8036667158:AAH2qisQDdnPdhRlbAnteSRzkmG65UhGmxw").build()
+    application = Application.builder().token("YOUR TOKEN").build()
 
     
     application.add_handler(CommandHandler("start", start))
